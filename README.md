@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# podcast_review_tools
+Open source project for podcast reviews
+
+Our goal is to build a single site for podcasts to direct their listeners to for submitting reviews. Ideally our site will keep track of 
+associated podcasts and provide links to leave reviews on all major platforms
+>>>>>>> c97342290065b720b7d0147aaa4efaffe022c738
