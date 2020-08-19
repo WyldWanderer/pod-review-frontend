@@ -1,13 +1,13 @@
 import React from 'react';
 import Tilt from 'react-tilt'
 import './Logo.css'
-import brain from './brain.png';
+import microphone from './microphone.jpg';
 
 const Logo = () => {
     return (
-        <div className='center pt0'>
-            <Tilt className="Tilt br2 shadow-2" options={{ max : 60 }} style={{ height: 70, width: 70 }} >
-            <div className="Tilt-inner"> <img style={{paddingTop: '5px'}}alt="brain logo" src={brain}/> </div>
+        <div className='center pt1'>
+            <Tilt className="Tilt" options={{ max : 35 }} style={{ height: 200, width: 200 }} >
+            <div className="Tilt-inner"> <img style={{paddingTop: '20px'}}alt="brain logo" src={microphone}/> </div>
             </Tilt>
         </div>
     );

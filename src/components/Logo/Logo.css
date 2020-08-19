@@ -1,3 +1,4 @@
-.Tilt {
-    background: #EFED1A;
+.center {
+    display: flex;
+    justify-content: center;
 }

@@ -73,7 +73,7 @@ class App extends Component {
       this.setState(initialState)
     } else if (route === 'home') {
       this.setState({isSignedIn: true})
-    }
+    } 
     this.setState({route: route})
   }
 
@@ -88,10 +88,10 @@ class App extends Component {
         <Particles className='particles'
               params={particlesOptions}
         />
+        <Logo />
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange}/>
         { route === 'home' 
-          ? <div> 
-            {/*<Logo />*/}
+          ? <div>
             <LandingPage searchChange={this.onSearchChange} />
           </div>
          : (
